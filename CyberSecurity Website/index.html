@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cybersecurity 101 🎄</title>
+
+  <!-- Bootstrap CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-danger shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">🎅 Cybersecurity 101</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#topics">Topics</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section id="hero" class="text-center py-5">
+    <div class="container">
+      <h1 class="display-4 fw-bold">🎄 Cybersecurity 101</h1>
+      <p class="lead mb-4">
+        Stay safe this holiday season — don’t let cyber grinches steal your data!
+      </p>
+      <a href="#topics" class="btn btn-light btn-lg">Learn the Basics</a>
+    </div>
+  </section>
+
+  <!-- Topics -->
+  <section id="topics" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-5 text-danger">🎁 Key Cybersecurity Threats</h2>
+      <div class="row g-4">
+
+        <!-- Example Card (Baiting) -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 border-danger shadow-sm" data-bs-toggle="modal" data-bs-target="#baitingModal">
+            <div class="card-body">
+              <h5 class="card-title text-danger">🎣 Baiting</h5>
+              <p class="card-text">
+                Attackers lure victims with something enticing — like a free gift or USB drive — that actually contains malware.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Shoulder Surfing -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 border-success shadow-sm" data-bs-toggle="modal" data-bs-target="#shoulderModal">
+            <div class="card-body">
+              <h5 class="card-title text-success">👀 Shoulder Surfing</h5>
+              <p class="card-text">Someone watches over your shoulder to see passwords or sensitive data.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Dumpster Diving -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 border-primary shadow-sm" data-bs-toggle="modal" data-bs-target="#dumpsterModal">
+            <div class="card-body">
+              <h5 class="card-title text-primary">🗑️ Dumpster Diving</h5>
+              <p class="card-text">Thieves go through discarded paperwork or electronics to find valuable information.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Info in Workspace -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 border-warning shadow-sm" data-bs-toggle="modal" data-bs-target="#workspaceModal">
+            <div class="card-body">
+              <h5 class="card-title text-warning">📝 Info in Workspace</h5>
+              <p class="card-text">Sticky notes with passwords or personal info are easy targets.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Piggybacking -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 border-danger shadow-sm" data-bs-toggle="modal" data-bs-target="#piggyModal">
+            <div class="card-body">
+              <h5 class="card-title text-danger">🚪 Piggybacking</h5>
+              <p class="card-text">An unauthorized person follows someone into a secure area.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Uniform or Authority -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 border-success shadow-sm" data-bs-toggle="modal" data-bs-target="#authorityModal">
+            <div class="card-body">
+              <h5 class="card-title text-success">🎩 Using Authority</h5>
+              <p class="card-text">Imposters dress as staff or claim authority to gain access.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Impersonation with Urgency -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 border-primary shadow-sm" data-bs-toggle="modal" data-bs-target="#impersonationModal">
+            <div class="card-body">
+              <h5 class="card-title text-primary">🚨 Impersonation with Urgency</h5>
+              <p class="card-text">Scammers pretend to be someone important and pressure you to act quickly.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Scareware / Ransomware -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 border-warning shadow-sm" data-bs-toggle="modal" data-bs-target="#ransomwareModal">
+            <div class="card-body">
+              <h5 class="card-title text-warning">💀 Scareware / Ransomware</h5>
+              <p class="card-text">Malicious software that locks data or scares users into paying.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-5 text-white bg-danger text-center">
+    <div class="container">
+      <h2>🎁 Stay Safe This Season</h2>
+      <p class="mt-3">Be merry and mindful — cybersecurity awareness is the best holiday gift!</p>
+      <a href="mailto:info@cybersecure.com" class="btn btn-outline-light mt-3">Contact Santa’s Security Team</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center text-white bg-dark py-3">
+    <p class="mb-0">&copy; 2025 Cybersecurity 101 🎄 | Stay Safe, Stay Jolly!</p>
+  </footer>
+
+  <!-- ===== MODALS ===== -->
+  <!-- Baiting -->
+  <div class="modal fade" id="baitingModal" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header bg-danger text-white">
+          <h5 class="modal-title">🎣 Preventing Baiting</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+          <ul>
+            <li>Never plug in unknown USB drives or devices.</li>
+            <li>Download software only from trusted sources.</li>
+            <li>Be cautious of “free” online offers or giveaways.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Shoulder Surfing -->
+  <div class="modal fade" id="shoulderModal" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header bg-success text-white">
+          <h5 class="modal-title">👀 Preventing Shoulder Surfing</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+          <ul>
+            <li>Use privacy screens on your devices.</li>
+            <li>Be aware of people nearby when entering passwords.</li>
+            <li>Position your monitor away from public view.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Dumpster Diving -->
+  <div class="modal fade" id="dumpsterModal" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header bg-primary text-white">
+          <h5 class="modal-title">🗑️ Preventing Dumpster Diving</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+          <ul>
+            <li>Shred sensitive documents before disposal.</li>
+            <li>Wipe or destroy old storage devices before discarding.</li>
+            <li>Use secure disposal bins for confidential material.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Workspace Info -->
+  <div class="modal fade" id="workspaceModal" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header bg-warning text-dark">
+          <h5 class="modal-title">📝 Protecting Workspace Info</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+          <ul>
+            <li>Never write passwords on sticky notes.</li>
+            <li>Lock your screen when stepping away.</li>
+            <li>Store sensitive papers securely.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Piggybacking -->
+  <div class="modal fade" id="piggyModal" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header bg-danger text-white">
+          <h5 class="modal-title">🚪 Preventing Piggybacking</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+          <ul>
+            <li>Never let strangers follow you into secure areas.</li>
+            <li>Politely ask for ID if unsure.</li>
+            <li>Report suspicious individuals immediately.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Authority -->
+  <div class="modal fade" id="authorityModal" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header bg-success text-white">
+          <h5 class="modal-title">🎩 Preventing Authority Exploits</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+          <ul>
+            <li>Verify credentials before granting access.</li>
+            <li>Don’t be intimidated by uniforms or badges alone.</li>
+            <li>Follow official ID verification procedures.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Impersonation -->
+  <div class="modal fade" id="impersonationModal" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header bg-primary text-white">
+          <h5 class="modal-title">🚨 Preventing Impersonation Scams</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+          <ul>
+            <li>Verify the sender or caller before acting.</li>
+            <li>Never rush to respond to urgent demands.</li>
+            <li>Use official channels to confirm requests.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Ransomware -->
+  <div class="modal fade" id="ransomwareModal" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header bg-warning text-dark">
+          <h5 class="modal-title">💀 Preventing Scareware & Ransomware</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+          <ul>
+            <li>Keep your software and antivirus up to date.</li>
+            <li>Don’t click suspicious links or attachments.</li>
+            <li>Back up important files regularly.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

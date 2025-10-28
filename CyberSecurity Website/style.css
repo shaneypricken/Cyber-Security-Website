@@ -1,0 +1,30 @@
+#hero {
+    background: linear-gradient(120deg, #ffcccc, #ffe6e6);
+    background-image: url("https://www.transparenttextures.com/patterns/snow.png");
+    background-repeat: repeat;
+    color: #8b0000; /* Dark red text color for contrast */
+  }
+  
+  #hero h1 {
+    color: #b30000; /* Deep Christmas red for title */
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.8);
+  }
+  
+  #hero p {
+    color: #333333; /* Dark gray for readability */
+  }
+  
+  .btn-light {
+    background-color: #b30000;
+    color: white;
+    border: none;
+  }
+  
+  .btn-light:hover {
+    background-color: #ff4d4d;
+    color: #fff;
+  }
+  
+  .card {
+    cursor:pointer;
+  }
